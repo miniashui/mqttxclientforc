@@ -13,7 +13,7 @@
 void connect_lost(void *context, char *cause)
 {
       printf("Connection lost,The reason is: %s \n",cause);
-
+}
 //receive topic
 int message_arrived(void *context, char *topicName, int topicLen, MQTTClient_message *message)
 {
